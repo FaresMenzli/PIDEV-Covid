@@ -3,6 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+import com.esprit.Entite.Question ;
+        import com.esprit.Service.ServiceQuestion ;
 package com.esprit.Test;
 import com.esprit.Entite.TestDepistage;
 import com.esprit.Service.ServiceTestDepistage;
@@ -47,6 +49,7 @@ public class Test {
         } catch (SQLException ex) {
             System.out.println(ex);
         }
+      //  String Qu.afficheQuestion ();
         
         
     }

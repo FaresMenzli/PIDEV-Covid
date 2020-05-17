@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package com.esprit.Test;
-
+import com.esprit.utils.* ;
 import GUI.TestDepFXMLController;
 import java.io.IOException;
 import java.util.logging.Level;

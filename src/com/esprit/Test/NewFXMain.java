@@ -5,7 +5,7 @@
  */
 package com.esprit.Test;
 
-import GUI.AjoutFXMLController;
+import GUI.TestDepFXMLController;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -28,7 +28,7 @@ public class NewFXMain extends Application {
     @Override
     public void start(Stage primaryStage) {
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("/GUI/AjoutFXML.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/GUI/TestDepFXML.fxml"));
             Scene scene = new Scene(root) ;
             primaryStage.setScene(scene);
             primaryStage.show();
